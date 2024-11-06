@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: flawless-snow-432721-k3
+    schema: taxi_data
+
+    tables:
+    - name: yellow
+    - name: green
